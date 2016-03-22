@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00ffffff</color>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <string name="app_name">Screen Filter</string>
+    <string name="title_activity_main">Screen Filter</string>
+    <style name="AppTheme" parent="android:Theme.Black"/>
+    <style name="Transparency" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+	    <item name="android:windowBackground">@color/transparent</item>
+	    <item name="android:windowContentOverlay">@null</item>
+	    <item name="android:windowNoTitle">true</item>
+	    <item name="android:windowFullscreen">true</item>	    
+	    <item name="android:backgroundDimEnabled">false</item>	    
+    </style>
+</resources>
